@@ -6,7 +6,7 @@ Win32 application to find the optimal transpose if your piano has broken keys.
 ## 2. Features
 The application takes two sets of keys from the user: keys played in a song and keys that are broken. After setting the keys, the user can then compute the optimal transpose that minimises the overlap between the two sets.
 
-   <img src="doc//img/gui_screenshot.png" width="600" />
+   <img src="doc//img/gui_screenshot.png" width="640" />
     <p><em>Figure 1: Application user interface.</em></p>
 
 As seen from above figure, the user interface is quite simple and self-explanatory. Here is a quick overview of the main controls:
@@ -30,15 +30,16 @@ This will remove the clicked status of all keys and reset internal variables. It
 
 ### 3.1. Prerequisites 
 1. Windows OS from this millenium
-2. C++ compiler (GCC, Clang, etc)
+2. C++ compiler (GCC, Clang, etc.)
 3. Cmake (v3.15 and above)
+
 You might also need to install Windows SDK for windows.h. For the compilers and build tools I would just install MSYS2.
 
 ### 3.2. Clone the repository
 To clone this project to your local machine, run the following command:
 ```
 git clone https://github.com/nkujanen/broken-keys.git
-cd pid-motor-simulation
+cd broken-keys
 ```
 
 ### 3.3. Build with Cmake
