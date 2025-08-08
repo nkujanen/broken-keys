@@ -28,7 +28,7 @@ target_include_directories(ui
 
 # Executable
 add_executable(BrokenKeys WIN32
-    main.cpp
+    src/main.cpp
 )
 
 target_link_libraries(BrokenKeys
